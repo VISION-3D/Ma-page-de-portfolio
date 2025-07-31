@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+header {
+  background-color: #004d40;
+  padding: 20px 0;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.nav-btn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+/* Couleurs différentes */
+.nav-btn.home   { background-color: #1abc9c; }   /* turquoise */
+.nav-btn.about  { background-color: #3498db; }   /* bleu */
+.nav-btn.work   { background-color: #9b59b6; }   /* violet */
+.nav-btn.resume { background-color: #e67e22; }   /* orange */
+.nav-btn.contact{ background-color: #e74c3c; }   /* rouge */
+
+.nav-btn:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+
+/* Sections basiques */
+section {
+  padding: 80px 20px;
+  text-align: center;
+  font-size: 24px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.profile-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.titre-vert {
+  color: green;
+}
+
+
+
+
+/* Fond d'écran image */
+body {
+  background-image: url('../image/baground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Texte centré */
+header {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: transparent; /* PAS de noir ici */
+}
+
+/* Image en cercle */
+.photo-profil {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid red;
+  object-fit: cover;
+}
+* {
+  background-color: transparent !important;
+}
+body {
+  background: url('../image/baground.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  border: 5px solid yellow; /* TEMPORAIRE pour tester si le body est visible */
+}
+/* Stylise la liste horizontale */
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 30px 0;
+}
+
+/* Style de la barre de navigation */
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 0;
+  margin: 30px 0;
+}
+
+/* Style des liens */
+.navbar li a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgba(248, 1, 1, 0.979); /* Fond clair */
+  border: 2px solid #5e081e;
+  border-radius: 25px;  /* ⬅️ Bord arrondi */
+  text-decoration: none;
+  color: rgb(107, 46, 163);
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Effet au survol */
+.navbar li a:hover {
+  background-color: rgb(193, 66, 224);
+  color: rgb(14, 224, 31);
+}
+h3 {
+  color: #e60000; /* rouge vif */
+}
+h2 {
+  color: red !important;
+}
